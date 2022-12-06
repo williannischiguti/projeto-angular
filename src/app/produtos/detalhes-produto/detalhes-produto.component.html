@@ -1,4 +1,4 @@
-<section class="product__container">
+<section class="product__container" *ngIf="produto?.id; else produtoInexistente">
     <div class="product-image__container">
         <img [src]="produto?.imagem" alt="">
     </div>
@@ -19,3 +19,7 @@
         <button (click)="adicionarAoCarrinho()">Adicionar ao carrinho</button>
     </div>
 </section>
+<ng-template #produtoInexistente>
+    <p class="retornar-pagina">Produto inexistente</p>
+    <p class="retornar-pagina"><a routerLink="">Clique aqui para retornar a página principal</a></p>
+</ng-template>
