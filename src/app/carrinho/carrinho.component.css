@@ -33,6 +33,7 @@ img {
 
 .remove-button:hover {
     filter: brightness(0.9);
+    cursor: pointer;
 }
 
 .cart-total {
@@ -50,6 +51,7 @@ input {
 .buy-button {
     background-color: var(--blue);
     border: none;
+    border-radius: 8px;
     color: white;
     padding: 10px;
     font-size: 22px;
@@ -59,4 +61,10 @@ input {
 
 .buy-button:hover {
     filter: brightness(0.9);
+    cursor: pointer;
+}
+
+p {
+    font-weight: bold;
+    font-size: 1rem;
 }

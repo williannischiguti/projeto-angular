@@ -50,7 +50,7 @@
     font-weight: bold;
 }
 
-.product-item__price-deion {
+.product-item__price-description {
     color: var(--gray);
     font-size: 12px;
     font-weight: bold;
@@ -59,6 +59,7 @@
 .product-item__buy-button {
     background-color: var(--blue);
     border: none;
+    border-radius: 8px;
     color: white;
     font-size: 20px;
     padding: 6px 12px;
