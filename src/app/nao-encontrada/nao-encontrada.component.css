@@ -1,6 +1,6 @@
 .container {
     display: flex;
-    flex-flow: colum nowrap;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     height: 400px;
